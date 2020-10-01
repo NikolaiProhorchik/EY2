@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <title>Хранилище файлов Excel</title>
+</head>
+<body>
+    <div id="uploadAndShowButtons">
+        <button id="buttonUpload" class="mainButtons">Загрузить файл</button>
+        <button id="buttonShow" class="mainButtons">Открыть файл</button>
+    </div>
+
+    <div id="uploadFile">
+        <form id="form" enctype="multipart/form-data" method="post" action="/uploadFile">
+            <input id="file" type="file" name="file" accept="application/vnd.ms-excel" required>
+            <input id="submit" type="submit" value="Загрузить">
+        </form>
+        <button id="buttonBack" class="mainButtons">Назад</button>
+    </div>
+</body>
+    <script type="text/javascript" src="../js/script.js"></script>
+</html>

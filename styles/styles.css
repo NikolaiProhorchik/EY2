@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#uploadAndShowButtons{
+    margin-top: 7em;
+    width: 20%;
+}
+
+.mainButtons{
+    border: 0;
+    height:25%;
+    width:100%;
+    margin-bottom: 4em;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color:#e6eb1a;
+    background-color:#79489c;
+}
+
+.mainButtons:focus{
+    outline:none;
+}
+.mainButtons:active{
+    background-color:#af67db;
+}
+
+#uploadFile{
+    display: none;
+    flex-direction: column;
+    margin-top: 7em;
+    width: 20%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit]{
+    margin: 2em 20% 0 20%;
+    border: 0;
+    height: 40%;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color:#e6eb1a;
+    background-color: #79489c;
+}
+
+#buttonBack{
+    width: 50%;
+    line-height: 2;
+    margin: 5em 25% 0 25%;
+}
